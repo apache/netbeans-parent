@@ -21,6 +21,8 @@
 
 # Apache NetBeans Parent Pom
 
+[![Build Status](https://ci-builds.apache.org/buildStatus/icon?job=Netbeans%2Fnetbeans-maven-TLP%2Fnetbeans-parent%2Fmaster)](https://ci-builds.apache.org/job/Netbeans/job/netbeans-maven-TLP/job/netbeans-parent/job/master/)
+
 ### Get In Touch
 
 [Subscribe](mailto:users-subscribe@netbeans.apache.org) or [mail](mailto:users@netbeans.apache.org) the [users@netbeans.apache.org](mailto:users@netbeans.apache.org) list - Ask questions, find answers, and also help other users.
