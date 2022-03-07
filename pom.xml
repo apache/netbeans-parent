@@ -104,7 +104,7 @@ under the License.
       <tag>HEAD</tag>
   </scm>
     <issueManagement>
-        <system>jira</system>
-        <url>https://issues.apache.org/jira/projects/NETBEANS</url>
+        <system>github</system>
+        <url>https://github.com/apache/netbeans/issues</url>
     </issueManagement>
 </project>
