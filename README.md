@@ -29,5 +29,3 @@
 
 [Subscribe](mailto:dev-subscribe@netbeans.apache.org) or [mail](mailto:dev@netbeans.apache.org) the [dev@netbeans.apache.org](mailto:dev@netbeans.apache.org) list - Join developement discussions, propose new ideas and connect with contributors.
 
-
-
