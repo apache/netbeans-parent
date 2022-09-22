@@ -43,7 +43,12 @@ under the License.
             <distribution>repo</distribution>
         </license>
     </licenses>
-
+    <distributionManagement>
+        <site>
+            <id>netbeans.bits</id>
+            <url>https://bits.netbeans.org/mavenutilities/netbeans-parent</url>
+        </site>
+    </distributionManagement>
     <developers>
         <developer>
             <id>apachenetbeansdev</id>
