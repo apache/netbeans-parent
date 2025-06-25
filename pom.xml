@@ -30,7 +30,7 @@ under the License.
 
     <groupId>org.apache.netbeans</groupId>
     <artifactId>netbeans-parent</artifactId>
-    <version>5-SNAPSHOT</version>
+    <version>5</version>
     <packaging>pom</packaging>
 
     <name>Apache Netbeans</name>
@@ -106,7 +106,7 @@ under the License.
         <connection>scm:git:https://gitbox.apache.org/repos/asf/netbeans-parent.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/netbeans-parent.git</developerConnection>
         <url>https://github.com/apache/netbeans-parent</url>
-      <tag>HEAD</tag>
+      <tag>netbeans-parent-5</tag>
   </scm>
     <issueManagement>
         <system>github</system>
