@@ -44,3 +44,36 @@ notifications:
   commits: commits@netbeans.apache.org
   issues: notifications@netbeans.apache.org
   pullrequests: notifications@netbeans.apache.org
+# https://releases.apache.org/projects/netbeans-parent
+project:
+  metadata:
+    key: netbeans-parent
+    committee: netbeans
+    name: Apache NetBeans Parent POM
+    description: Apache NetBeans Parent POM.
+    homepage: https://bits.netbeans.org/netbeans-parent/
+    download_page: https://bits.netbeans.org/netbeans-parent/download.html
+    bug_database: https://github.com/apache/netbeans/issues
+    mailing_lists: https://netbeans.apache.org/front/main/community/mailing-lists/
+    repositories:
+      - https://github.com/apache/netbeans-parent
+    categories:
+      - ide
+      - php
+      - groovy
+      - java
+    programming_languages:
+      - Java
+    version_method: simple
+  policy:
+    announce_release_template_url: https://netbeans.apache.org/front/main/_attachments/atr/announce_release.txt
+    start_vote_template_url: https://netbeans.apache.org/front/main/_attachments/atr/start_vote.txt
+    github_repository_name: netbeans-parent
+    download_path_suffix: '{{PROJECT_KEY}}-{{VERSION}}'
+    vote_recipients:
+      to: dev@netbeans.apache.org
+    announce_recipients:
+      to: announce@netbeans.apache.org
+  features:
+    atr_sync: true
+

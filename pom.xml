@@ -25,7 +25,7 @@ under the License.
     <parent>
         <groupId>org.apache</groupId>
         <artifactId>apache</artifactId>
-        <version>39</version>
+        <version>40</version>
     </parent>
 
     <groupId>org.apache.netbeans</groupId>
@@ -33,7 +33,7 @@ under the License.
     <version>6-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Apache Netbeans</name>
+    <name>Apache Netbeans Parent POM</name>
     <description>Apache NetBeans is an integrated development environment, tooling platform, and application framework.</description>
     <url>https://netbeans.apache.org/</url>
     <licenses>
@@ -46,7 +46,7 @@ under the License.
     <distributionManagement>
         <site>
             <id>netbeans.bits</id>
-            <url>https://bits.netbeans.org/mavenutilities/netbeans-parent</url>
+            <url>https://bits.netbeans.org/netbeans-parent</url>
         </site>
     </distributionManagement>
     <developers>
@@ -101,7 +101,10 @@ under the License.
             <archive>https://mail-archives.apache.org/mod_mbox/netbeans-notifications/</archive>
         </mailingList>
     </mailingLists>
-
+    <properties>
+        <!-- project version on download page -->
+        <currentversion>5</currentversion>
+    </properties>
     <scm>
         <connection>scm:git:https://gitbox.apache.org/repos/asf/netbeans-parent.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/netbeans-parent.git</developerConnection>
