@@ -16,7 +16,7 @@
 
 github:
   description: "Apache NetBeans parent pom"
-  homepage: https://netbeans.apache.org/
+  homepage: https://netbeans.apache.org/tooling/netbeans-parent
   labels:
     - netbeans
   features:
@@ -76,4 +76,6 @@ project:
       to: announce@netbeans.apache.org
   features:
     atr_sync: true
-
+publish:
+  whoami: asf-site
+  subdir: tooling/netbeans-parent
