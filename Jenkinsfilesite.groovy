@@ -17,4 +17,4 @@
  * under the License.
  */
 
-asfMavenSiteBuild jdk:'jdk_8_latest', mvnName:'maven_3_latest'
+asfMavenSiteBuild jdk:'jdk_1.8_latest', mvnName:'maven_3_latest'
