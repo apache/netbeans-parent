@@ -29,4 +29,9 @@ under the License.
             <item name="Download" href="download.html"/>           
         </menu>
     </body>
+    <custom>
+        <fluidoSkin>
+            <skipGenerationDate>true</skipGenerationDate>
+        </fluidoSkin>
+    </custom>
 </site>
