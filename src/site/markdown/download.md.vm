@@ -29,9 +29,9 @@ For more common usage, artefacts binaries can be found on the central repository
 
 #[[##]]# File
 
-|                                             |                   Link                        |     Checksum      |       Signature      |
+|                                                |                   Link                        |     Checksum      |       Signature      |
 |------------------|-------------------------------------------    |-----------        |------------          |
-| ${project.name} ${currentversion}(Source zip) | [${project.artifactId}-${currentversion}-source-release.zip](https://dlcdn.apache.org/netbeans/${project.artifactId}/${project.artifactId}-${currentversion}/${project.artifactId}-${currentversion}-source-release.zip) |   [${project.artifactId}-${currentversion}-source-release.zip.sha512](https://downloads.apache.org/netbeans/${project.artifactId}/${project.artifactId}-${currentversion}/${project.artifactId}-${currentversion}-source-release.zip.sha512)       |   [${project.artifactId}-${currentversion}-source-release.zip.asc](https://downloads.apache.org/netbeans/${project.artifactId}/${project.artifactId}-${currentversion}/${project.artifactId}-${currentversion}-source-release.zip.asc)          |
+| ${project.name} ${project.version}(Source zip) | [${project.artifactId}-${project.version}-source-release.zip](https://dlcdn.apache.org/netbeans/${project.artifactId}/${project.artifactId}-${project.version}/${project.artifactId}-${project.version}-source-release.zip) |   [${project.artifactId}-${project.version}-source-release.zip.sha512](https://downloads.apache.org/netbeans/${project.artifactId}/${project.artifactId}-${project.version}/${project.artifactId}-${project.version}-source-release.zip.sha512)       |   [${project.artifactId}-${project.version}-source-release.zip.asc](https://downloads.apache.org/netbeans/${project.artifactId}/${project.artifactId}-${project.version}/${project.artifactId}-${project.version}-source-release.zip.asc)          |
 
 
 #[[##]]# Previous versions

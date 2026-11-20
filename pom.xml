@@ -101,18 +101,26 @@ under the License.
             <archive>https://mail-archives.apache.org/mod_mbox/netbeans-notifications/</archive>
         </mailingList>
     </mailingLists>
-    <properties>
-        <!-- project version on download page -->
-        <currentversion>5</currentversion>
-    </properties>
     <scm>
         <connection>scm:git:https://gitbox.apache.org/repos/asf/netbeans-parent.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/netbeans-parent.git</developerConnection>
         <url>https://github.com/apache/netbeans-parent</url>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
     <issueManagement>
         <system>github</system>
         <url>https://github.com/apache/netbeans/issues</url>
     </issueManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <inherited>false</inherited>
+                <configuration>
+                    <relativizeSiteLinks>false</relativizeSiteLinks>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
