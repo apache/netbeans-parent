@@ -69,7 +69,7 @@ project:
     announce_release_template_url: https://netbeans.apache.org/front/main/_attachments/atr/announce_release.txt
     start_vote_template_url: https://netbeans.apache.org/front/main/_attachments/atr/start_vote.txt
     github_repository_name: netbeans-parent
-    download_path_suffix: '{{PROJECT_KEY}}-{{VERSION}}'
+    download_path_suffix: '{{PROJECT_KEY}}/{{PROJECT_KEY}}-{{VERSION}}'
     vote_recipients:
       to: dev@netbeans.apache.org
     announce_recipients:
