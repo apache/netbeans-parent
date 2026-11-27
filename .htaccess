@@ -1,7 +1,7 @@
 RewriteEngine on
 
 # Do not rewrite on known folder
-RewriteCond %{REQUEST_URI} !^/master/
+RewriteCond %{REQUEST_URI} !^/master/ [OR]
 RewriteCond %{REQUEST_URI} !^/netbeans-parent(.*)/
 
 # Redirect to current (need fix on release)
